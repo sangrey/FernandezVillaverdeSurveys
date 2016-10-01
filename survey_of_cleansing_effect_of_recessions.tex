@@ -1,0 +1,104 @@
+\documentclass[11pt]{amsart}
+\usepackage{graphicx}
+\usepackage{amsmath, amsfonts, amsthm, amssymb, latexsym, mathtools}
+\usepackage{mathrsfs}
+\usepackage{thmtools}
+\usepackage{thm-restate}
+\usepackage{cleveref}
+\usepackage{etex, etoolbox, ifthen, url,csquotes}
+\usepackage{kvoptions}
+\usepackage{logreq}
+\usepackage[american]{babel}
+\usepackage[doublespacing]{setspace}
+\usepackage[margin=1in]{geometry}
+\usepackage[backend=biber, autopunct=true, authordate]{biblatex-chicago}
+\usepackage{placeins}
+\usepackage[page]{appendix}
+\usepackage{siunitx}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+%\usepackage{titling}%
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}{Lemma}
+\pagestyle{plain}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathbb{V}\mathrm{ar}}
+\newcommand{\Cov}{\mathbb{C}\mathrm{ov}}
+\newcommand{\N}{\mathcal{N}}
+\newcommand{\lequals}{\stackrel{\mathcal{L}}{=}}
+\newcommand{\aequals}{\stackrel{a.s.}{=}}
+\newcommand{\I}{\mathbb{I}}
+\newcommand{\F}{\mathcal{F}}
+\newcommand{\qt}[1]{\lq\lq#1\rq\rq}
+
+
+\thanks{\textit{Email}: sangrey@sas.upenn.edu}
+\date{\today}
+\title{Survey of Cleansing Effect of Recessions Literature}
+\author{Paul Sangrey}		
+\addbibresource{cleansing_effect_of_recessions_references.bib}
+
+\begin{document}
+
+\maketitle 
+
+At least since \cite{schumpeter1939business}, economists have debated the effect of business cycles on economic growth. 
+In 1994, the theoretical literature was significantly furthered by \citeauthor{caballero1994cleansing} in their seminal paper \citetitle{caballero1994cleansing} which created a model where lower productivity firms are more likely to be destroyed in recessions. 
+As a consequence, recessions increase average productivity by \textit{cleansing} the economy of unproductive firms. 
+On the other hand, various authors have argued that increased frictions in the form of credit tightening during recessions may reduce the reallocation of productive resources towards their most effective use. 
+In addition, certain forms of heterogeneity when combined with search frictions can also form a \textit{sullying} effect of recessions as in \cite{barlevy2002sullying}. 
+Consequently, sclerosis may actually increase during recessions instead of decrease.
+Since all of these effects likely happen, it is an empirical question which one dominates in practice.
+
+
+In addition to the theoretical issues, evidence suggests that cumulative restructuring is lower following recessions and 
+To deal with these issues \citeauthor{caballero2005cost} wrote another paper \citetitle{caballero2005cost} in which they build a model where heterogeneity in firm productivity and financial constraints causes reduced reallocation. 
+Their main conclusion is that recessions lead to less total restructuring and that this is costly. 
+
+To fast-forward to the present, in the aftermath of the Great Recession and its slow recovery renewed interest has arisen in this topic.
+Haltiwanger and various coauthors have written several articles on related topics using plant-level data.
+They focus primarily on manufacturing firms, as do most other papers in this literature, as managing physical productivity in other firms is quite difficult.  
+\cite{davis2012labor} shows that job destruction and layoffs move together over time while quits move counter to both. 
+It also finds that plotting hiring and separation as function of establishment-level growth rates exhibits a nonlinear \qt{hockey-stick} behavior where the relation is nearly flat to a point and then rises rapidly afterwards. 
+A more recent paper, \cite{foster2016reallocation}, mentions that prior research suggests that the behavior of macroeconomic variables during recession in the early 1980s is consistent with the cleansing hypothesis. 
+However, responsiveness of job creation and destruction to cyclical contractions changed dramatically during the Great Recession. 
+As before, job destruction rose significantly, but, unlike previous ones, job creation fell significantly as well.
+(In previous recessions job creation only fell mildly.)
+In addition, it finds that the marginal impact of productivity on exit fell significantly during the Great Recession although it remained nonzero. 
+
+Another paper by Haltwianger and coauthors, \cite{fort2013how} shows that young businesses have very different cyclical dynamics than older businesses. 
+It further argues that young and small businesses are particularly sensitive to housing prices and hence were hit atypically hard by the Great Recession.
+It also mentions that the recent literature (such as \cite{gertler1994monetary} and \cite{chari2007gertler}) has not reached a consensus on whether, in general, large firms or small firms have a larger response to recessions.
+Rather, which type of firm appears more responsive depends upon the economic indicators considered.
+
+In another recent paper, \citeauthor{kehrig2011cyclicality} applies a \cite{olley1996dynamics} methodology to plant-level data in his paper \citetitle{kehrig2011cyclicality}.
+He shows that cross-sectional dispersion of total factor productivity levels in U.S. manufacturing is countercyclical being about 10\% more spread out in recessions. 
+This is primarily driven by a higher share of unproductive firms in recessions. 
+In addition, this pattern is more pronounced in durable goods industries. 
+He then builds along the lines of \cite{ghironi2005international} to explain these empirical regularities. 
+
+A more theoretical paper, \cite{ouyang2009scarring} develops a model where recessions impede the development of potentially superior firms by destroying them in infancy while still allowing for the cleansing effects in the style of \cite{caballero1994cleansing}. 
+It calibrates this model using statistics on entry, exit and productivity differentials and finds that the scarring effect dominates leading to lower average productivity in recessions. 
+
+\cite{bloom2009impact}, on the other hand, is mainly concerned with the the effect of uncertainty on economic growth in a macroeconomic context with stochastic volatility.
+However, in considering that question, it shows that cross-sectional revenue productivity dispersion is countercyclical at both the plant and firm level and that this dispersion is strongly correlated with productivity growth and with stock market volatility.  
+It then builds a theoretical model where an uncertainty shock causes firms to temporarily freeze their hiring and firing and hence slows productivity growth by freezing reallocation of workers towards more productive units. 
+
+
+To wrap up, productivity dispersion increases during recessions, but it is not clear whether productivity-enhancing reallocation dominates the various effects that are detrimental to productivity.
+This lack of consensus holds both both theoretically and empirically.
+It is likely, however, that the Great Recession had a detrimental effect on productivity and the positive reallocation of resources was seems to be rather muted, which may help to explain the sluggish growth in its aftermath.
+This may well be caused by a particularly strong effect on young firms during that recessions, which itself may be related to the sharp fall in housing prices. 
+
+
+
+\newpage
+\printbibliography
+
+\end{document}
+
+
